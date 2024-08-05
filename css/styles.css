@@ -234,6 +234,7 @@ button {
 /* #esection-team */
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0
 }
 
 .team-title {
@@ -244,9 +245,18 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px
+}
+
+.team-list:last-child {
+    margin-right: 0
+}
 
 .team {
     background-color: #FFFFFF;
