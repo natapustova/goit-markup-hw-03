@@ -194,7 +194,7 @@ button {
 }
 
 .section-title {
-    margin-bottom: 8px;
+
     .visually-hidden
 }
 
@@ -216,6 +216,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
 
