@@ -9,6 +9,7 @@ ol {
     list-style-type: none;
     margin-left: 0;
     margin-right: 0;
+    padding-left: 0;
 }
 
 a {
@@ -28,6 +29,7 @@ p {
 
 .container {
     border-bottom: 1px solid #e7e9fc;
+    justify-content: space-between;
 }
 
 .header-container {
@@ -68,7 +70,9 @@ button {
     color: #2e2f42;
 }
 
-.menu {}
+.menu {
+    display: flex;
+}
 
 
 .menu-item {}
