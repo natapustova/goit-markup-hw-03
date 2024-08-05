@@ -322,6 +322,7 @@ button {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+
 }
 
 .portfolio-list {
@@ -361,12 +362,18 @@ button {
 /* #region footer */
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.container-footer {}
 
 .logo {}
 
 .logo-span-footer {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -375,6 +382,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px
 }
 
 /* #endregion footer */
