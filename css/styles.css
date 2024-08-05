@@ -269,6 +269,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-profes {
@@ -278,6 +280,12 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
+}
+
+.container-mark-guerrero {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* #endsection-team */
