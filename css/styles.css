@@ -286,6 +286,7 @@ button {
 .container-mark-guerrero {
     padding-top: 32px;
     padding-bottom: 32px;
+    width: calc((100% - 72px) / 4);
 }
 
 .container-tom-ford {
