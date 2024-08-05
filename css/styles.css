@@ -28,12 +28,13 @@ p {
 
 .container {
     max-width: 1158px;
-    padding-left: 15;
-    padding-right: 15;
-    margin: 0 auto;
-
+    padding: 0 15px 0 15px
 }
 
+.header-container {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
 
 button {
     font-family: "Roboto", sans-serif;
@@ -42,10 +43,8 @@ button {
 
 /* #region header  */
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    display: flex;
-}
+.header {}
+
 
 .nav {
     display: flex;
