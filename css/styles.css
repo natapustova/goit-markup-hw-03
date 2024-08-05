@@ -26,14 +26,13 @@ p {
     margin-bottom: 0;
 }
 
-.container {
-    max-width: 1158px;
-    padding: 0 15px 0 15px
-}
+.container {}
 
 .header-container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    max-width: 1158px;
+    padding: 0 15px 0 15px
 }
 
 button {
