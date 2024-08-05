@@ -110,7 +110,8 @@ button {
 
 .contact {
     display: flex;
-    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contact-item {
@@ -140,6 +141,7 @@ button {
 }
 
 /* #endregion header  */
+
 /* #region hero */
 .hero {
     background-color: #2e2f42;
@@ -185,6 +187,7 @@ button {
 }
 
 /* #endregion hero  */
+
 /* #section-advantages */
 .section-title {}
 
