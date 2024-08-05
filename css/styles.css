@@ -140,7 +140,10 @@ button {
 
 }
 
-.hero-container {}
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 
 .hero-button:hover,
 .hero-button:focus {
@@ -154,6 +157,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -163,6 +167,11 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
