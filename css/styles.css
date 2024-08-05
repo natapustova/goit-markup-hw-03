@@ -47,7 +47,9 @@ button {
 
 /* #region header  */
 
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
 
 
 .nav {
