@@ -189,9 +189,23 @@ button {
 /* #endregion hero  */
 
 /* #section-advantages */
-.section-title {}
+.advantages {
+    padding: 120px 0;
+}
 
-.list-feature {}
+.section-title {
+    .visually-hidden
+}
+
+.list-feature {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.list-feature:last-child {
+    margin-right: 0
+}
 
 .feature {}
 
