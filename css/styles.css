@@ -308,6 +308,11 @@ button {
 /* #endsection-team */
 
 /* #portfolio--section */
+.container-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -316,11 +321,24 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
 
-.service {}
+.service {
+    row-gap: 48px;
+    margin-bottom: 48px;
+    margin-bottom: 0;
+}
+
+.service:last-child(2n+1) {
+    margin-right: 0
+}
 
 .portfolio-item-title {
     font-weight: 500;
