@@ -72,7 +72,10 @@ button {
 
 .menu {
     display: flex;
-    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px
 }
 
 
