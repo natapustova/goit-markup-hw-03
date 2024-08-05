@@ -368,12 +368,14 @@ button {
 
 .container-footer {}
 
-.logo {}
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .logo-span-footer {
     color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
+
 }
 
 .footer-text {
