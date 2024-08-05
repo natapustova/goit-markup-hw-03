@@ -137,13 +137,11 @@ button {
 /* #region hero */
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 
 }
 
-.hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
+.hero-container {}
 
 .hero-button:hover,
 .hero-button:focus {
