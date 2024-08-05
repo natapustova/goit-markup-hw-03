@@ -13,6 +13,14 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1158px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 button {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
