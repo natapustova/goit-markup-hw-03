@@ -34,13 +34,13 @@ p {
 .container {
     border-bottom: 1px solid #e7e9fc;
     justify-content: space-between;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .header-container {
     display: flex;
-    max-width: 1158px;
-    padding: 0 15px 0 15px;
-    margin: 0 auto;
 }
 
 button {
@@ -74,7 +74,7 @@ button {
     align-items: center;
 }
 
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -114,8 +114,6 @@ button {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
-
-
 }
 
 .menu-link:hover,
@@ -134,8 +132,7 @@ button {
 
 .contact {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    gap: 40px;
 }
 
 .contact-item {
@@ -143,7 +140,6 @@ button {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 40px;
     margin-right: 40px
 }
 
@@ -173,7 +169,9 @@ button {
 
 }
 
-.hero-container {}
+.hero-container {
+    text-align: center;
+}
 
 .hero-button:hover,
 .hero-button:focus {
@@ -392,14 +390,13 @@ button {
 
 .container-footer {}
 
-.logo {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
 
 .logo-span-footer {
     color: #f4f4fd;
-
 }
 
 .footer-text {
