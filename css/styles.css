@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block
+}
+
 .h1,
 h2,
 h3,
