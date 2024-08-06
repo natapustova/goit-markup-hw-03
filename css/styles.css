@@ -221,15 +221,16 @@ button {
 
 .list-feature {
     display: flex;
-    gap: 24px;
-    margin-right: 24px;
 }
 
 .list-feature:last-child {
     margin-right: 0
 }
 
-.feature {}
+.feature {
+    gap: 24px;
+    margin-right: 24px;
+}
 
 .feature-title {
     font-weight: 500;
