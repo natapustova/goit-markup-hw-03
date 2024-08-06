@@ -33,11 +33,10 @@ p {
 }
 
 .header-container {
-
+    display: flex;
     max-width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
-
 }
 
 button {
@@ -48,7 +47,7 @@ button {
 /* #region header  */
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -97,6 +96,7 @@ button {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+
 
 }
 
