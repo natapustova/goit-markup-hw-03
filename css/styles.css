@@ -230,6 +230,7 @@ button {
 .feature {
     gap: 24px;
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-title {
