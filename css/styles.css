@@ -221,6 +221,8 @@ button {
 
 .list-feature {
     display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .list-feature:last-child {
@@ -228,10 +230,9 @@ button {
 }
 
 .feature {
-    gap: 24px;
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
+
 
 .feature-title {
     font-weight: 500;
