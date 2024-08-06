@@ -293,26 +293,7 @@ button {
     text-align: center;
 }
 
-.container-mark-guerrero {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    width: calc((100% - 72px) / 4);
-}
-
-.container-tom-ford {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    width: calc((100% - 72px) / 4);
-
-}
-
-.container-camila-garcia {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    width: calc((100% - 72px) / 4);
-}
-
-.container-daniel-wilson {
+.container-team-item {
     padding-top: 32px;
     padding-bottom: 32px;
     width: calc((100% - 72px) / 4);
